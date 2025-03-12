@@ -20,6 +20,16 @@
             bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <20 21>;
         };
+
+        exclamation {
+            bindings = <&kp EXCLAMATION>;
+            key-positions = <18 19>;
+        };
+
+        question {
+            bindings = <&kp QUESTION>;
+            key-positions = <19 20>;
+        };
     };
 
     macros {
