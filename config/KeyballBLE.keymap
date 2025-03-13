@@ -30,6 +30,11 @@
             bindings = <&kp QUESTION>;
             key-positions = <19 20>;
         };
+
+        midpoint {
+            bindings = <&none>;
+            key-positions = <6 7>;
+        };
     };
 
     macros {
@@ -57,10 +62,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                        &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G        &mkp LCLK           &kp AT         &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B        &mkp RCLK           &kp COLON      &kp N        &kp M  &kp COMMA  &kp DOT  &kp PLUS
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &lt 2 SPACE  &msc MOVE_Y(0)      &kp BACKSPACE  &lt 4 ENTER                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R                 &kp T                                           &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F                 &kp G        &mkp LCLK           &kp AT         &kp H        &kp J  &kp K      &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                 &kp B        &mkp RCLK           &kp COLON      &kp N        &kp M  &kp COMMA  &kp DOT  &kp PLUS
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 TAB  &lt 2 SPACE  &msc MOVE_Y(0)      &kp BACKSPACE  &lt 4 ENTER                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
