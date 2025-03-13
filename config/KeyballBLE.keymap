@@ -32,7 +32,7 @@
         };
 
         midpoint {
-            bindings = <&none>;
+            bindings = <&kp SLASH>;
             key-positions = <6 7>;
         };
     };
