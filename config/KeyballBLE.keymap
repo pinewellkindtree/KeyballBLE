@@ -30,16 +30,6 @@
             bindings = <&kp QUESTION>;
             key-positions = <19 20>;
         };
-
-        midpoint {
-            bindings = <&kp SLASH>;
-            key-positions = <6 7>;
-        };
-
-        greater-than {
-            bindings = <&kp GREATER_THAN>;
-            key-positions = <7 8>;
-        };
     };
 
     macros {
